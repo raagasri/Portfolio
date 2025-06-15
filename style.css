@@ -564,7 +564,83 @@ section {
     width: 0;
     transition: width 1.5s ease;
 }
+/* Add this CSS to your existing style.css file */
 
+.certifications {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8f4ff 0%, #e8f0fe 100%);
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.certification-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #6c5ce7;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.cert-icon {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.cert-info h3 {
+    color: #2d3748;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.cert-issuer {
+    color: #6c5ce7;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.cert-description {
+    color: #718096;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .certification-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cert-icon {
+        align-self: center;
+    }
+}
 /* Experience Section */
 .experience {
     background-color: #f9f9f9;
