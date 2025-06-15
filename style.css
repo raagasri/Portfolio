@@ -566,9 +566,8 @@ section {
 }
 /* Add this CSS to your existing style.css file */
 
-.certifications {
-    padding: 80px 0;
-    background: linear-gradient(135deg, #f8f4ff 0%, #e8f0fe 100%);
+.Certifications {
+    background-color: white;
 }
 
 .certifications-grid {
@@ -587,7 +586,7 @@ section {
     align-items: flex-start;
     gap: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border-left: 4px solid #6c5ce7;
+    border-left: 4px solid #a45a77;
 }
 
 .certification-card:hover {
@@ -596,7 +595,7 @@ section {
 }
 
 .cert-icon {
-    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    background: linear-gradient(135deg, #a29bfe, #d88ca0);
     width: 60px;
     height: 60px;
     border-radius: 12px;
@@ -609,7 +608,7 @@ section {
 }
 
 .cert-info h3 {
-    color: #2d3748;
+    color: #a29bfe;
     font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 8px;
@@ -617,14 +616,14 @@ section {
 }
 
 .cert-issuer {
-    color: #6c5ce7;
+    color: #a29bfe;
     font-weight: 600;
     font-size: 0.95rem;
     margin-bottom: 10px;
 }
 
 .cert-description {
-    color: #718096;
+    color: #a29bfe;
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;
