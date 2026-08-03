@@ -728,6 +728,17 @@ section {
     font-size: 14px;
 }
 
+.timeline-content ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.timeline-content ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
 .tech-stack {
     padding: 10px 20px;
     display: flex;
